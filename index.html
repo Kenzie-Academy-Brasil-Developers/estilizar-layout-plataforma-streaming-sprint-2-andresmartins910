@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
 	<!-- META -->
 	<meta charset="UTF-8">
@@ -9,24 +10,26 @@
 	<title>Kenzieflix</title>
 
 	<!-- CSS -->
+	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css" />
 
 	<!-- FAVICON -->
-	<link rel="shortcut icon" type="image/x-icon" href="./img/favicon.png" /> 
+	<link rel="shortcut icon" type="image/x-icon" href="./img/favicon.png" />
 </head>
+
 <body>
-	
+
 	<!-- CABEÇALHO -->
 	<header class="topo">
 		<figure>
 			<img src="img/logo.png" alt="Kenzieflix">
-			<figcaption>Kenzieflix</figcaption>
+			<!-- <figcaption>Kenzieflix</figcaption> -->
 		</figure>
 	</header>
 
 	<!-- PÁGINA INICIAL -->
-	<div class="pg-home">
-		
+	<div class="page-home">
+
 		<section>
 
 			<header>
@@ -34,33 +37,33 @@
 			</header>
 
 			<!-- LISTA DE USUÁRIOS -->
-			<ul>
-				
+			<ul class="page-home__ul">
+
 				<!-- USUÁRIO 1 -->
 				<li>
-					<figure>
-						<img src="img/avatar.png" alt="Gabriel">
-						<figcaption>Gabriel</figcaption>
+					<figure class="page-home__figure">
+						<img src="img/avatar.png" alt="Gabriel" class="page-home__image">
+						<!-- <figcaption>Gabriel</figcaption> -->
 					</figure>
 
 					<h3>Gabriel</h3>
 				</li>
-				
+
 				<!-- USUÁRIO 2 -->
 				<li>
-					<figure>
-						<img src="img/avatar1.png" alt="Maria">
-						<figcaption>Maria</figcaption>
+					<figure class="page-home__figure">
+						<img src="img/avatar1.png" alt="Maria" class="page-home__image">
+						<!-- <figcaption>Maria</figcaption> -->
 					</figure>
 
 					<h3>Maria</h3>
 				</li>
-				
+
 				<!-- USUÁRIO 3 -->
 				<li>
-					<figure>
-						<img src="img/avatar2.png" alt="Renato">
-						<figcaption>Renato</figcaption>
+					<figure class="page-home__figure">
+						<img src="img/avatar2.png" alt="Renato" class="page-home__image">
+						<!-- <figcaption>Renato</figcaption> -->
 					</figure>
 
 					<h3>Renato</h3>
@@ -68,14 +71,12 @@
 
 				<!-- ADICIONAR PERFIL-->
 				<li class="addPerfil">
-					<figure>
-						<img src="img/plus-sign.png" alt="Adicionar perfil">
-						<figcaption>Adicionar perfil</figcaption>
+					<figure class="page-home__figure">
+						<img src="img/plus-sign.png" alt="Adicionar perfil" class="page-home__image" id="addPerfilImg">
+						<!-- <figcaption>Adicionar perfil</figcaption> -->
 					</figure>
-
 					<h3>Adicionar perfil</h3>
 				</li>
-
 			</ul>
 
 			<footer>
